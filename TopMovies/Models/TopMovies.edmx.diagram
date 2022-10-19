@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="637ba3302c7547e09b4a4bb2132aa3bf" Name="Diagram1" ZoomLevel="86" >
+        <EntityTypeShape EntityType="TopMovies.Movie" Width="1.5" PointX="3.75" PointY="0.5" />
+        <EntityTypeShape EntityType="TopMovies.User" Width="1.5" PointX="9.625" PointY="3" />
+        <EntityTypeShape EntityType="TopMovies.Valoracion" Width="1.5" PointX="6.25" PointY="3.25" />
+        <EntityTypeShape EntityType="TopMovies.Actor" Width="1.5" PointX="9" PointY="0.5" />
+        <EntityTypeShape EntityType="TopMovies.Participacion" Width="1.5" PointX="6.5" PointY="0.5" />
+        <EntityTypeShape EntityType="TopMovies.Idioma" Width="1.5" PointX="1.125" PointY="0.5" />
+        <EntityTypeShape EntityType="TopMovies.Clasificacion" Width="1.5" PointX="1.125" PointY="2.25" />
+        <AssociationConnector Association="TopMovies.IdiomaMovie" />
+        <AssociationConnector Association="TopMovies.ClasificacionMovie" />
+        <AssociationConnector Association="TopMovies.UserValoracion" />
+        <AssociationConnector Association="TopMovies.MovieValoracion" />
+        <AssociationConnector Association="TopMovies.ActorParticipacion" />
+        <AssociationConnector Association="TopMovies.MovieParticipacion" />
+        <EntityTypeShape EntityType="TopMovies.Pais" Width="1.5" PointX="3.375" PointY="4.375" />
+        <AssociationConnector Association="TopMovies.PaisMovie" />
+        <AssociationConnector Association="TopMovies.PaisActor" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
